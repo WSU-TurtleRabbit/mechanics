@@ -36,3 +36,5 @@ The two bottom holes are sized for an M4 tap, the 4 holes for the moteus board a
 
 If it is printed, it should be printed laying flat. 
 
+![Render of the motor mount in aluminium](/01-drive/Render/motormount.png)
+
