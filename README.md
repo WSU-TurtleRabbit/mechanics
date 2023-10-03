@@ -1,4 +1,4 @@
-# rabbit-mechanics
+# TurtleRabbit mechanics
 
 ![The WSU SSL rabbit bot](/Render/rabbitbot-2023-Sep-20.png)
 
