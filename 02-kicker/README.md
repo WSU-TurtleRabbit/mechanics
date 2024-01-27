@@ -2,7 +2,7 @@
 
 The kicker is made of a large (off-the-shelf) solenoid, with few a 3d-printed parts and some guides from aluminium.
 
-## Initial design
+## Kicker electronics initial design
 
 It begins with the initial design, which is rather straightforward, consisting mainly of a solenoid and a MOSFET transistor. The MOSFET serves as a switch to control the flow of electricity to the solenoid, with three crucial points: gate, drain, and source. A small voltage at the gate controls the larger voltage flowing between the source and drain.
 
