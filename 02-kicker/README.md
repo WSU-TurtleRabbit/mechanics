@@ -10,7 +10,6 @@ A key caution is to ensure that the MOSFET can handle the current without exceed
 
 Selecting the right MOSFET is essential, especially the gate-source voltage (Gvs), which determines the voltage range needed to activate the gate. If the Gvs is too high, the gate won't open. A diode is used to prevent current from flowing back into the solenoid.
 
-![image](https://github.com/WSU-TurtleRabbit/mechanics/assets/166775/88760dc5-31b2-495b-b0b9-3e67c87fd5c3)
 
 This design is similar to that found in Matt Inglot's YouTube tutorials. However, to increase the force of the solenoid, a capacitor and a voltage booster were added to charge the capacitor with around 200 volts, which is then discharged into the solenoid for a stronger kick. This setup allows for control over the voltage and thus the power of the kicker. Despite its simplicity, this design is limited by the need to manually adjust the voltage booster for different kick strengths and the physical space required by the Arduino and voltage booster.
 
@@ -21,4 +20,4 @@ For construction, voltage measurement is necessary to ensure the booster does no
 ## Improvements
 
 Future improvements include exploring the relationship between a capacitor's voltage and capacitance to potentially eliminate the need for a voltage booster, thereby saving space. Additionally, a reusable fuse will be added for safety, and an H-bridge might be considered for the kicker's design.
-![image](https://github.com/WSU-TurtleRabbit/mechanics/assets/166775/b82a2741-42f4-400c-8b0e-a84a5ce154e9)
+
